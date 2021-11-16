@@ -1,0 +1,256 @@
+.Button_container__29x6U {
+    width: 100px;
+    height: 40px;
+
+    background: white;
+    border: 2px solid rgba(223, 226, 231, 0.89);
+    /*border-left-width: 0;*/
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.Button_container__29x6U:hover {
+    background: #E5E5E5;
+}
+
+.Button_img__3PqRz {
+    width: 25px;
+    height: 25px;
+}
+
+.Button_text__3mNdA {
+    width: 50px;
+    height: 20px;
+
+    font-family: "Roboto Light", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #000000;
+}
+.MailPage_container__3U5zP {
+    max-width: 1040px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.MailPage_nav__3OKFM {
+    display: flex;
+}
+
+.MailPage_title__3FUhs {
+    position: relative;
+
+    width: 150px;
+    height: 80px;
+
+    left: 50%;
+    transform: translateX(-50%);
+    color: #FF0000;
+
+    font-family: "Roboto Light", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    align-items: center;
+    text-align: center;
+}
+
+.MailPage_crimson__24C5- {
+    color: #3A0000;
+}
+
+body {
+    background-image: url(../../static/media/bg.b58f5987.jpeg);
+}
+
+.SelectCheckbox_container__1Pgkh {
+    background: #FFFFFF;
+    border: 2px solid rgba(223, 226, 231, 0.89);
+    box-sizing: border-box;
+    border-radius: 4px 0 0 4px;
+
+    width: 124px;
+    height: 40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.SelectCheckbox_container__1Pgkh:hover {
+    background: #E5E5E5;
+}
+
+.SelectCheckbox_img__JJIsr {
+    width: 25px;
+    height: 25px;
+
+    margin-left: 10px;
+}
+
+.SelectCheckbox_checkbox__2DKLN {
+    width: 20px;
+    height: 20px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.SelectCheckbox_text__2k3UF {
+    width: 80px;
+    height: 20px;
+
+    font-family: "Roboto Light", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #000000;
+}
+.Letter_checkbox__21P3x {
+    min-width: 20px;
+    min-height: 20px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.Letter_avatar__14f9b {
+    width: 30px;
+    height: 30px;
+
+    border-radius: 4px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.Letter_name__3-POF {
+    max-width: 140px;
+    width: 140px;
+
+    font-family: "Roboto Thin", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    text-align: left;
+
+    color: #000000;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    margin-right: 10px;
+}
+
+.Letter_theme__FJje0 {
+    max-width: 15%;
+
+    font-family: "Roboto Light", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    align-items: center;
+    text-align: left;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    margin-right: 10px;
+}
+
+.Letter_snippet__1d7SU {
+    max-width: 600px;
+    width: 65%;
+
+    font-family: "Roboto Light", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    text-align: left;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    opacity: 50%;
+}
+
+.Letter_container__2Exyf {
+    display: flex;
+    align-items: center;
+
+    max-width: 1040px;
+    height: 48px;
+
+    background: white;
+    border: 1px solid rgba(217, 220, 224, 0.86);
+
+    position: relative;
+
+    padding: 0 8px;
+}
+
+.Letter_container__2Exyf:hover {
+    background: #E5E5E5;
+}
+
+.Letter_selected__2X9ze {
+    transition-duration: 1s;
+    background-color: #ebecef;
+    opacity: 92%;
+}
+
+.Letters_zero__2hO2u {
+    transform: translateX(-50%);
+    position: fixed;
+    top: 128px;
+    left: 50%;
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 43px;
+    align-items: center;
+    text-align: center;
+}
+
+.Letters_letters__3focz {
+    margin-top: 4px;
+}
+
+/*# sourceMappingURL=main.bba6a78f.chunk.css.map*/

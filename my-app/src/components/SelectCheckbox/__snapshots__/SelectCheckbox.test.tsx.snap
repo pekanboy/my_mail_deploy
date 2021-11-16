@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test select checkbox component to match snapshot  1`] = `
+<div
+  className="container"
+  onClick={[Function]}
+>
+  <input
+    checked={false}
+    className="checkbox"
+    type="checkbox"
+  />
+  <span
+    className="text"
+  >
+    Выбрать все
+  </span>
+</div>
+`;
+
+exports[`Test select checkbox component to match snapshot  2`] = `
+<div
+  className="container"
+  onClick={[Function]}
+>
+  <input
+    checked={true}
+    className="checkbox"
+    type="checkbox"
+  />
+  <span
+    className="text"
+  >
+    Выбрать все
+  </span>
+</div>
+`;

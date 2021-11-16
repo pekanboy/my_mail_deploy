@@ -1,0 +1,18 @@
+.zero {
+    transform: translateX(-50%);
+    position: fixed;
+    top: 128px;
+    left: 50%;
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 43px;
+    align-items: center;
+    text-align: center;
+}
+
+.letters {
+    margin-top: 4px;
+}

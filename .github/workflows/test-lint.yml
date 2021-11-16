@@ -1,0 +1,32 @@
+name: Test and Lint
+
+on:
+  push:
+    branches:
+      - dev
+      - master
+  pull_request:
+    branches:
+      - dev
+      - master
+
+jobs:
+  test:
+    name: UnitTest
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js 14
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.x'
+      - run: |
+          cd my-app
+          npm i
+      - run: |
+          cd my-app
+          npm run test-coverage
+      - run: |
+          cd my-app
+          npm run lint

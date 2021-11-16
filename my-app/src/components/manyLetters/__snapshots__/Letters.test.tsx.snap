@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test Letters block letters count no zero 1`] = `
+<div
+  className="letters"
+>
+  <Letter
+    checkHandler={[Function]}
+    key="1"
+    letter={
+      Object {
+        "avatar": "http://i.pravatar.cc/300?u=1",
+        "id": 1,
+        "sender": "Бединге",
+        "snippet": "Люди всё время меня спрашивают: знаю ли я Тайлера Дёрдена?",
+        "theme": "Carolina Hurricanes",
+      }
+    }
+  />
+  <Letter
+    checkHandler={[Function]}
+    key="2"
+    letter={
+      Object {
+        "avatar": "http://i.pravatar.cc/300?u=2",
+        "id": 2,
+        "sender": "Лиаторп",
+        "snippet": "Шесть месяцев я не мог спать. Когда у тебя бессонница — всё нереально; всё очень далеко от тебя, всё это — копия, снятая с копии, которая в свою очередь снята с копии.",
+        "theme": "Columbus Blue Jackets",
+      }
+    }
+  />
+  <Letter
+    checkHandler={[Function]}
+    key="3"
+    letter={
+      Object {
+        "avatar": "http://i.pravatar.cc/300?u=3",
+        "id": 3,
+        "sender": "Хемнэс",
+        "snippet": "Когда-то мы зачитывались порнографией — теперь каталогами IKEA.",
+        "theme": "New Jersey Devils",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`test Letters block letters count zero 1`] = `
+<div
+  className="zero"
+>
+  У вас нет входящих писем
+</div>
+`;

@@ -1,0 +1,101 @@
+.checkbox {
+    min-width: 20px;
+    min-height: 20px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+
+    border-radius: 4px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.name {
+    max-width: 140px;
+    width: 140px;
+
+    font-family: "Roboto Thin", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    text-align: left;
+
+    color: #000000;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    margin-right: 10px;
+}
+
+.theme {
+    max-width: 15%;
+
+    font-family: "Roboto Light", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    align-items: center;
+    text-align: left;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    margin-right: 10px;
+}
+
+.snippet {
+    max-width: 600px;
+    width: 65%;
+
+    font-family: "Roboto Light", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    text-align: left;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    opacity: 50%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+
+    max-width: 1040px;
+    height: 48px;
+
+    background: white;
+    border: 1px solid rgba(217, 220, 224, 0.86);
+
+    position: relative;
+
+    padding: 0 8px;
+}
+
+.container:hover {
+    background: #E5E5E5;
+}
+
+.selected {
+    transition-duration: 1s;
+    background-color: #ebecef;
+    opacity: 92%;
+}

@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Letter component test selected letter 1`] = `
+<div
+  className="container 
+                selected"
+  id="1"
+>
+  <input
+    checked={true}
+    className="checkbox"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <img
+    alt="Аватар пользователя"
+    className="avatar"
+    src="http://i.pravatar.cc/300?u=1"
+  />
+  <span
+    className="name"
+  >
+    Бединге
+  </span>
+  <span
+    className="theme"
+  >
+    Carolina Hurricanes
+  </span>
+  <span
+    className="snippet"
+  >
+    Люди всё время меня спрашивают: знаю ли я Тайлера Дёрдена?
+  </span>
+</div>
+`;
+
+exports[`Test Letter component to match snapshot  1`] = `
+<div
+  className="container 
+                false"
+  id="1"
+>
+  <input
+    checked={false}
+    className="checkbox"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <img
+    alt="Аватар пользователя"
+    className="avatar"
+    src="http://i.pravatar.cc/300?u=1"
+  />
+  <span
+    className="name"
+  >
+    Бединге
+  </span>
+  <span
+    className="theme"
+  >
+    Carolina Hurricanes
+  </span>
+  <span
+    className="snippet"
+  >
+    Люди всё время меня спрашивают: знаю ли я Тайлера Дёрдена?
+  </span>
+</div>
+`;

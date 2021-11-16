@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test button component to match snapshot  1`] = `
+<div
+  className="container"
+  data-name="button"
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundColor": "red",
+    }
+  }
+>
+  <img
+    alt="Изображение корзины"
+    className="img"
+    src="http://i.pravatar.cc/300?u=1"
+  />
+  <span
+    className="text"
+  >
+    Button
+  </span>
+</div>
+`;

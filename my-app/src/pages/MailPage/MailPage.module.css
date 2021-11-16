@@ -1,0 +1,38 @@
+.container {
+    max-width: 1040px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    display: flex;
+}
+
+.title {
+    position: relative;
+
+    width: 150px;
+    height: 80px;
+
+    left: 50%;
+    transform: translateX(-50%);
+    color: #FF0000;
+
+    font-family: "Roboto Light", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    align-items: center;
+    text-align: center;
+}
+
+.crimson {
+    color: #3A0000;
+}
+
+body {
+    background-image: url("../../static/bg.jpeg");
+}
